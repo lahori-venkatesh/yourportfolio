@@ -11,14 +11,13 @@ const Navbar = ({ scrolled }: { scrolled: boolean }) => {
     { href: "#home", label: "Home" },
     { href: "#skills", label: "Skills" },
     { href: "#projects", label: "Projects" },
-    { href: "/design-folio", label: "Design Folio" },
     { href: "#story", label: "My Story" },
     { href: "#contact", label: "Contact Me" },
   ];
 
   const socialLinks = {
-    github: "https://github.com/lahori-venkatesh",
-    linkedin: "https://www.linkedin.com/in/venkatesh-lahori-667b02256/"
+    github: "https://github.com/Your-Github profile",
+    linkedin: "https://www.linkedin.com/in/your-linked profile"
   };
 
   return (
@@ -29,7 +28,7 @@ const Navbar = ({ scrolled }: { scrolled: boolean }) => {
         <div className="flex items-center justify-between h-16">
           <span className="text-xl font-bold text-primary font-poppins 
             bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent">
-            Venkatesh
+            Portfolio
           </span>
 
           {/* Desktop Navigation */}

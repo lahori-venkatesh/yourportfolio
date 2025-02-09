@@ -1,4 +1,5 @@
 import { Button } from "@/components/ui/button";
+import { Description } from "@radix-ui/react-toast";
 import { Link } from "react-router-dom";
 
 const ProjectsSection = () => {
@@ -6,30 +7,37 @@ const ProjectsSection = () => {
     {
       title: "Personal Portfolio Project",
       description: "A modern personal portfolio built with React, TypeScript, and Tailwind CSS, featuring an interactive user interface, smooth animations, and responsive design. It showcases my projects, skills, and professional journey, with easy access to my resume and social media links for seamless networking",
-      image: "/images/portfolio.png",
+      image: "/images/portfolio.jpg",
       tools: ["Vite", "Typescript", "React", "Tailwing CSS", "shadcn-ui", "Typewriter.js"],
-      link: "https://lahorivenkatesh.netlify.app"
+      link: "https://your-project-link"
     },
     {
-      title: "MediVars - Revolutionizing Online Healthcare Services",
+      title: "Medical - Frontend project forRevolutionizing Online Healthcare Services",
       description: "MediVars connects you with expert doctors and healthcare professionals anytime, anywhere. With secure video consultations, instant medical advice, and comprehensive health management, MediVars ensures top-notch care from the comfort of your home. Your health, our priority.",
-      image: "/images/medivars.png",
+      image: "/images/medical.png",
       tools: ["TypeScript", "Vite", "React", "Tailwind CSS", "Shadcn UI"],
-      link: "https://medivars.netlify.app"
+      link: "https://your-project-link"
     },
     {
-      title: "Healthcare Dashboard",
+      title: "Marriage Matrimony-Fullstack project for marriage profile matching platform",
       description: "Comprehensive healthcare management dashboard enabling medical professionals to monitor patient data, track treatments, and analyze health trends in real-time.",
-      image: "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3",
+      image: "/images/matrimony.png",
       tools: ["Vue.js", "Express", "PostgreSQL", "Chart.js"],
       link: "/projects/healthcare"
     },
     {
-      title: "Social Media Platform",
+      title: "Hair-Cut-Fullstack for Salon slot booking service",
       description: "A feature-rich social media platform with real-time messaging, post sharing, and user engagement analytics. Built with modern technologies for optimal performance and scalability.",
       image: "https://images.unsplash.com/photo-1611162617474-5b21e879e113?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3",
       tools: ["Next.js", "Firebase", "TypeScript", "Redux"],
-      link: "/projects/social-media"
+      link: "https://your-project-link"
+    },
+    {
+      title: "InfyCo-Fullstack for peer-to-peer knowledge-sharing platfrom",
+      description: "InfyCo is a peer-to-peer knowledge-sharing platform designed to connect students and professionals with mentors and experts across various fields. It bridges the gap between learners and industry specialists by offering one-on-one mentorship sessions, personalized guidance, and a collaborative environment.",
+      image: "https://images.unsplash.com/photo-1611162617474-5b21e879e113?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3",
+      tools: [ "Next.js", "Firebase", "TypeScript", "Redux" ],
+      link:"https://your-project-link"
     }
   ];
 

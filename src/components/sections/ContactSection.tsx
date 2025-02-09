@@ -26,17 +26,17 @@ const ContactSection = () => {
 
     try {
       const templateParams = {
-        to_email: "lahorivenkatesh709@gmail.com", // Target email address
+        to_email: "yourmail@gmail.com", // Target email address
         from_name: formData.name,
         from_email: formData.email,
         message: formData.message,
       };
 
       await emailjs.send(
-        "service_9zk5y8k", // Replace with your EmailJS Service ID
-        "template_o0q7gpv", // Replace with your EmailJS Template ID
+        "service_9jfk5y8k", // Replace with your EmailJS Service ID
+        "template_o89vq7gpv", // Replace with your EmailJS Template ID
         templateParams,
-        "gcULbDlD5aK8ODPg3" // Replace with your EmailJS Public Key
+        "gcULbDlDSRDRODPg3" // Replace with your EmailJS Public Key
       );
 
       toast({

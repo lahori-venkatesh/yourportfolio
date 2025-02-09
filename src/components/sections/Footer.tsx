@@ -7,7 +7,7 @@ const Footer = () => (
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 border border-[#196EF8]/80 rounded-lg p-8">
         <div className="space-y-4 text-center md:text-left">
           <h3 className="text-xl font-bold bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent">
-            Lahori Venkatesh
+            Your Name
           </h3>
           <p className="text-muted-foreground">
           Designing ideas, shaping experiences, and building connections that matter.
@@ -18,7 +18,6 @@ const Footer = () => (
           <h4 className="font-semibold">Quick Links</h4>
           <div className="space-y-2">
             <a href="#about" className="block text-muted-foreground hover:text-primary transition-colors">About</a>
-            <a href="/design-folio" className="block text-muted-foreground hover:text-primary transition-colors">Design Folio</a>
             <a href="#contact" className="block text-muted-foreground hover:text-primary transition-colors">Contact</a>
           </div>
         </div>
@@ -28,15 +27,15 @@ const Footer = () => (
           <div className="space-y-2 text-muted-foreground">
             <div className="flex items-center gap-2 justify-center md:justify-start">
               <Mail className="w-4 h-4" />
-              <span>lahorivenkatesh709@gmail.com</span>
+              <span>yourname123@gmail.com</span>
             </div>
             <div className="flex items-center gap-2 justify-center md:justify-start">
               <Phone className="w-4 h-4" />
-              <span>9182928956</span>
+              <span>12457899656</span>
             </div>
             <div className="flex items-center gap-2 justify-center md:justify-start">
               <MapPin className="w-4 h-4" />
-              <span>Vijayawada, AndhraPradesh</span>
+              <span>Add-Your Address</span>
             </div>
           </div>
         </div>
@@ -44,13 +43,13 @@ const Footer = () => (
         <div className="space-y-4 text-center md:text-left">
           <h4 className="font-semibold">Follow Me</h4>
           <div className="flex space-x-4 justify-center md:justify-start">
-            <a href="https://www.linkedin.com/in/venkatesh-lahori-667b02256/" className="p-2 rounded-full border border-[#196EF8]/80 hover:border-primary/40 transition-colors">
+            <a href="https://www.linkedin.com/your-linked-profile-link" className="p-2 rounded-full border border-[#196EF8]/80 hover:border-primary/40 transition-colors">
               <Linkedin className="h-5 w-5 text-primary" />
             </a>
-            <a href="https://www.instagram.com/ux_re.alm/" className="p-2 rounded-full border border-[#196EF8]/80 hover:border-primary/40 transition-colors">
+            <a href="https://www.instagram.com/your-instagram-profile-link" className="p-2 rounded-full border border-[#196EF8]/80 hover:border-primary/40 transition-colors">
               <Instagram className="h-5 w-5 text-primary" />
             </a>
-            <a href="https://x.com/TechmyTech" className="p-2 rounded-full border border-[#196EF8]/80 hover:border-primary/40 transition-colors">
+            <a href="https://x.com/your-twitter-profile" className="p-2 rounded-full border border-[#196EF8]/80 hover:border-primary/40 transition-colors">
               <Twitter className="h-5 w-5 text-primary" />
             </a>
           </div>
@@ -58,7 +57,7 @@ const Footer = () => (
       </div>
       
       <div className="mt-8 text-center text-muted-foreground border-t border-[#196EF8]/80 pt-8">
-        <p>© {new Date().getFullYear()} Lahori Venkatesh. All rights reserved.</p>
+        <p>© {new Date().getFullYear()} Add-Your-Name. All rights reserved.</p>
       </div>
     </div>
   </footer>

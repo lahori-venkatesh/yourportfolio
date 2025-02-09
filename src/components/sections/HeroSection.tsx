@@ -36,7 +36,7 @@ const HeroSection = () => {
                 Hello <span className="inline-block animate-wave origin-[70%_70%]">👋</span>
               </p>
               <h1 className="text-4xl md:text-6xl font-bold font-poppins mb-2">
-                I am <span className="text-primary">Venkatesh</span>
+                I am <span className="text-primary">Your-Name</span>
               </h1>
             </div>
             <div className="h-8">
@@ -72,13 +72,13 @@ const HeroSection = () => {
               <Button size="lg" className="font-poppins px-8 
               ">View Resume</Button>
               <div className="flex items-center gap-6">
-                <a href="https://www.linkedin.com/in/venkatesh-lahori-667b02256/" target="_blank" rel="noopener noreferrer" className="text-white hover:text-primary transition-colors">
+                <a href="https://www.linkedin.com/in/Your-linked-profile" target="_blank" rel="noopener noreferrer" className="text-white hover:text-primary transition-colors">
                   <Linkedin className="w-6 h-6" />
                 </a>
-                <a href="https://www.instagram.com/ux_re.alm/" target="_blank" rel="noopener noreferrer" className="text-white hover:text-primary transition-colors">
+                <a href="https://www.instagram.com/your-instagram-profile" target="_blank" rel="noopener noreferrer" className="text-white hover:text-primary transition-colors">
                   <Instagram className="w-6 h-6" />
                 </a>
-                <a href="https://www.youtube.com/channel/UCDFmj0LYFNwXpM6Zi_ETtSw" target="_blank" rel="noopener noreferrer" className="text-white hover:text-primary transition-colors">
+                <a href="https://www.youtube.com/channel/your-channel-name" target="_blank" rel="noopener noreferrer" className="text-white hover:text-primary transition-colors">
                   <Youtube className="w-6 h-6" />
                 </a>
               </div>

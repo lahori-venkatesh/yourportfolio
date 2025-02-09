@@ -3,51 +3,51 @@ import { Award } from "lucide-react";
 const CertificatesSection = () => {
   const certificates = [
     {
-      title: "UX-Kickstart Workshop",
-      organization: "Growth School",
+      title: "UX-Kickstart Workshop Program",
+      organization: "Coursera",
       date: "December 2023",
       image: "/images/ux-workshop.jpg",
-      pdfUrl: "/certificates/UX-Kickstart.pdf",
+      pdfUrl: "/certificates/your-certficate.pdf",
     
     },
     {
       title: "Google UX Design Career Program",
-      organization: "Cou",
+      organization: "Coursera",
       date: "October 2023",
-      image: "/images/google-ux.jpg",
+      image: "/images/fullstack.png",
       pdfUrl: "/certificates/google-ux.pdf",
     
     },
     {
       title: "Full Stack Development",
-      organization: "Apna College",
+      organization: "Coursera",
       date: "August 2023",
-      image: "/images/web.jpg",
-      pdfUrl: "/certificates/web.pdf",
+      image: "/images/ux-workshop.jpg",
+      pdfUrl: "/certificates/your-certificate.pdf",
     
     },
     {
       title: "DSA with Java",
-      organization: "Apna  College",
+      organization: "Coursera",
       date: "July 2023",
-      image: "/images/dsa.jpg",
-      pdfUrl: "/certificates/dsa.pdf",
+      image: "/images/fullstack.png",
+      pdfUrl: "/certificates/Your-Certificate.pdf",
     
     },
     {
       title: "Aspire Leadership Program",
       organization: "Harvard Bussiness School",
-      date: "Nov 202u",
-      image: "/images/aspire.jpg",
-      pdfUrl: "/certificates/aspire.pdf",
+      date: "Nov 2024",
+      image: "/images/ux-workshop.jpg",
+      pdfUrl: "/certificates/Your-Certificates.pdf",
     
     },
     {
       title: "ChatGPT",
-      organization: "Growth School",
+      organization: "Coursera",
       date: "June 2023",
-      image: "/images/chatgpt.jpg",
-      pdfUrl: "/certificates/chatgpt.pdf",
+      image: "/images/fullstack.png",
+      pdfUrl: "/certificates/your-Certificates.pdf",
     
     }
     
